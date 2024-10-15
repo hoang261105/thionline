@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background-color: #ffc85b28;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #fdb44b;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  /* Left Profile Section */
+  .profile-left {
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-left .left1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .profile-left .left1.active,
+  .profile-left .left1:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .profile-left .profile-link {
+    color: black;
+  }
+  
+  /* Main Content */
+  .history-section {
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  
+  .container-content-admin {
+    background-color: #f5f5f5;
+    width: 70%;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .attendance {
+    background-color: #ffc85b28;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .attendance-list {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .manage-title {
+    background-color: rgb(252, 186, 44);
+    color: black;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sort-items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .sort-select {
+    padding: 6px 16px;
+    background-color: lightgrey;
+    border-radius: 6px;
+    border: none;
+  }
+  
+  .tablex {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 15px;
+  }
+  
+  .tablex thead tr {
+    background: goldenrod;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .tablex th,
+  .tablex td {
+    padding: 12px 15px;
+  }
+  
+  .tablex tbody tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tablex tbody tr:nth-of-type(odd) {
+    background: #f3f3f3;
+  }
+  
+  .tablex tbody tr:last-of-type {
+    border-bottom: 2px solid gold;
+  }
+  
+  .tablex tbody tr.active {
+    font-weight: bold;
+    color: gold;
+  }
+  
+  .tablex button {
+    padding: 6px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid gold;
+  }
+  
+  .tablex button:hover {
+    background: goldenrod;
+    color: #fff;
+    transition: 0.5s;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 60px 154px;
+    background-color: #fdb44b;
+  }
+  
+  .footer .footer-content {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 60px;
+  }
+  
+  .footer-content .footer-left,
+  .footer-content .footer-right {
+    width: 50%;
+  }
+  
+  .footer-content .footer-left p,
+  .footer-content .footer-right p {
+    color: black;
+  }
+  
+  .footer-content .footer-left .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: black;
+  }
+  
+  .footer-content .footer-left .flogo-list {
+    margin-top: -20px;
+    font-size: 40px;
+    display: flex;
+    gap: 10px;
+    color: black;
+  }
+  
+  .footer .end {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
