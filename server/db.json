@@ -455,6 +455,26 @@
       "timeCompleted": "00:14",
       "date": "10/09/2024",
       "id": 8
+    },
+    {
+      "idUser": 1,
+      "idExam": 4,
+      "idCourse": 2,
+      "idSubject": 6,
+      "score": 7.5,
+      "timeCompleted": "00:12",
+      "date": "15/10/2024",
+      "id": 9
+    },
+    {
+      "idUser": 1,
+      "idExam": 4,
+      "idCourse": 2,
+      "idSubject": 6,
+      "score": 7.5,
+      "timeCompleted": "00:15",
+      "date": "15/10/2024",
+      "id": 10
     }
   ]
 }
